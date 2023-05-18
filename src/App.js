@@ -96,10 +96,10 @@ function App() {
 
           <div className="grid">
           <a className="card">
-          Staked: {data?._tokensStaked && ethers.utils.formatEther(data?._tokensStaked)} UT <br></br>
+          Staked: {data?._tokensStaked && ethers.utils.formatEther(data?._tokensStaked)} STM <br></br>
           </a>
           <a className="card">
-          Rewards: {data?._rewards && Number(ethers.utils.formatEther(data?._rewards)).toFixed(2)} MET
+          Rewards: {data?._rewards && Number(ethers.utils.formatEther(data?._rewards)).toFixed(2)} MTK
           </a>
           <a className="card" href='https://faucet-app-ten.vercel.app/'>
           Go to Faucet App ➡️
