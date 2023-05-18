@@ -101,6 +101,9 @@ function App() {
           <a className="card">
           Rewards: {data?._rewards && Number(ethers.utils.formatEther(data?._rewards)).toFixed(2)} MET
           </a>
+          <a className="card" href='https://faucet-app-ten.vercel.app/'>
+          Go to Faucet App ➡️
+          </a>
           </div>
         </main>
       </div>
